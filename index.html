@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가상악기 프로그램</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="piano-container">
+      <header>
+        <h2>Piano ProGram 
+          <img class="piano-image" src="이미지/피아노로고2(누끼X)타일.png" alt="">
+          <img class="note-image" src="이미지/황금음표2(누끼X).png" alt="">
+        </h2>
+          <div class="column volume-slider">
+            <span class="Volume">Volume</span><input type="range" min="0" max="1" value="0.5" step="any">
+          </div>
+          <div class="column keys-checkbox">
+            <span>Show Keys</span><input type="checkbox" checked>
+          </div>
+      </header>
+      <ul class="piano-keys">
+        <li class="key white" data-key="z"><span>z</span></li>
+        <li class="key black" data-key="w"><span></span></li>
+        <li class="key white" data-key="s"><span>x</span></li>
+        <li class="key black" data-key="e"><span></span></li>
+        <li class="key white" data-key="d"><span>c</span></li>
+        <li class="key white" data-key="f"><span>v</span></li>
+        <li class="key black" data-key="t"><span></span></li>
+        <li class="key white" data-key="g"><span>m</span></li>
+        <li class="key black" data-key="y"><span></span></li>
+        <li class="key white" data-key="h"><span><</span></li>
+        <li class="key black" data-key="u"><span></span></li>
+        <li class="key white" data-key="j"><span>></span></li>
+        <li class="key white" data-key="k"><span>?/a</span></li>
+        <li class="key black" data-key="o"><span></span></li>
+        <li class="key white" data-key="l"><span>s</span></li>
+        <li class="key black" data-key="p"><span></span></li>
+        <li class="key white" data-key=";"><span>d</span></li>
+        <li class="key white" data-key="f"><span>f</span></li>
+        <li class="key black" data-key="t"><span></span></li>
+        <li class="key white" data-key="g"><span>j</span></li>
+        <li class="key black" data-key="y"><span></span></li>
+        <li class="key white" data-key="h"><span>k</span></li>
+        <li class="key black" data-key="u"><span></span></li>
+        <li class="key white" data-key="j"><span>l</span></li>
+        <li class="key white" data-key="k"><span>:/q</span></li>
+        <li class="key black" data-key="o"><span></span></li>
+        <li class="key white" data-key="l"><span>w</span></li>
+        <li class="key black" data-key="p"><span></span></li>
+        <li class="key white" data-key=";"><span>e</span></li>
+        <li class="key white" data-key="f"><span>r</span></li>
+        <li class="key black" data-key="t"><span></span></li>
+        <li class="key white" data-key="g"><span>u</span></li>
+        <li class="key black" data-key="y"><span></span></li>
+        <li class="key white" data-key="h"><span>i</span></li>
+        <li class="key black" data-key="u"><span></span></li>
+        <li class="key white" data-key="j"><span>o</span></li>
+        <li class="key white" data-key="a"><span>p/1</span></li>
+        <li class="key black" data-key="w"><span></span></li>
+        <li class="key white" data-key="s"><span>2</span></li>
+        <li class="key black" data-key="e"><span></span></li>
+        <li class="key white" data-key="d"><span>3</span></li>
+        <li class="key white" data-key="f"><span>4</span></li>
+        <li class="key black" data-key="t"><span></span></li>
+        <li class="key white" data-key="g"><span>7</span></li>
+        <li class="key black" data-key="y"><span></span></li>
+        <li class="key white" data-key="h"><span>8</span></li>
+        <li class="key black" data-key="u"><span></span></li>
+        <li class="key white" data-key="j"><span>9</span></li>
+        <li class="key white" data-key="z"><span>0/F1</span></li>
+        <li class="key black" data-key="w"><span></span></li>
+        <li class="key white" data-key="s"><span>F2</span></li>
+        <li class="key black" data-key="e"><span></span></li>
+        <li class="key white" data-key="d"><span>F3</span></li>
+        <li class="key white" data-key="f"><span>F4</span></li>
+        <li class="key black" data-key="t"><span></span></li>
+        <li class="key white" data-key="g"><span>F5</span></li>
+        <li class="key black" data-key="y"><span></span></li>
+        <li class="key white" data-key="h"><span>F6</span></li>
+        <li class="key black" data-key="u"><span></span></li>
+        <li class="key white" data-key="j"><span>F7</span></li>
+        <li class="key white" data-key="k"><span>F8</span></li>
+      </ul>
+    </div>
+
+  </body>
+</html>
